@@ -1,0 +1,4 @@
+threads: 4
+
+fastp_quality: 20
+fastp_min_length: 36

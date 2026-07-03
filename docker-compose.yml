@@ -1,0 +1,12 @@
+services:
+  pipeline:
+    build: .
+    image: renx86/rnaflow:latest
+    container_name: rnaflow
+    volumes:
+      - .:/app
+
+    command: /bin/bash
+
+    stdin_open: true
+    tty: true
